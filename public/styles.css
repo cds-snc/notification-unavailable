@@ -222,16 +222,6 @@ main h1 {
 main > div {
   margin-bottom: 30px;
 }
-@media screen and (min-width: 48em) {
-  main > div {
-    width: 90%;
-  }
-}
-@media screen and (min-width: 75em) {
-  main > div {
-    width: 80%;
-  }
-}
 li:not(:last-of-type) {
   padding-bottom: 5px;
 }
@@ -450,4 +440,9 @@ abbr {
   text-decoration: none;
   border-bottom: 2.5px dotted #999;
   cursor: help;
+}
+
+.img {
+  width: 100%;
+  text-align: center;
 }
