@@ -1,0 +1,453 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+main {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+[hidden] {
+  display: none;
+}
+* {
+  box-sizing: border-box;
+}
+a[href]:not([disabled]):focus,
+area[href]:not([disabled]):focus,
+input:not([disabled]):focus,
+select textarea:not([disabled]):focus,
+button:not([disabled]):focus,
+iframe:not([disabled]):focus,
+[tabindex]:not([disabled]):focus,
+[contentEditable="true"]:not([disabled]):focus {
+  outline: 3px solid #ffbf47;
+  outline-offset: 0;
+}
+body {
+  margin: 0;
+  font-size: 1.05em;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.65;
+}
+@media screen and (min-width: 21em) {
+  body {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 35.5em) {
+  body {
+    font-size: 1.3em;
+  }
+}
+p,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 21em) {
+  p,
+  ol,
+  ul {
+    margin-bottom: 15px;
+  }
+}
+ol,
+ul {
+  padding-left: 20px;
+}
+@media screen and (min-width: 35.5em) {
+  ol,
+  ul {
+    padding-left: 40px;
+  }
+}
+a {
+  color: #284162;
+}
+a:visited {
+  color: #7834bc;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  line-height: 1.33;
+}
+main,
+.page--container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+main {
+  padding: 0 20px;
+  padding-bottom: calc(80px + 60px);
+}
+main h1 {
+  border-bottom: 1px solid #af3c43;
+}
+main > div {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 48em) {
+  main > div {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 75em) {
+  main > div {
+    width: 80%;
+  }
+}
+li:not(:last-of-type) {
+  padding-bottom: 5px;
+}
+@media screen and (min-width: 35.5em) {
+  li:not(:last-of-type) {
+    padding-bottom: 0;
+  }
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  border: 0 !important;
+  white-space: nowrap !important;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 4px solid #284162;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer .footer-links {
+  font-size: 0.85em;
+}
+footer .footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 35.5em) {
+  footer .footer-links ul {
+    margin-bottom: 20px;
+  }
+}
+footer .footer-links li {
+  margin-right: 15px;
+}
+footer .footer-links li::before {
+  content: "\2022";
+  color: #335075;
+  display: inline-block;
+  width: calc(15px + 5px);
+}
+@media screen and (min-width: 35.5em) {
+  footer .footer-links li {
+    display: inline-block;
+  }
+  footer .footer-links li:first-of-type::before {
+    content: none;
+    width: 0;
+  }
+}
+footer .footer-links a {
+  text-decoration: none;
+}
+footer .canada-wordmark {
+  margin-bottom: 20px;
+  width: 147.2px;
+}
+@media screen and (min-width: 48em) {
+  footer .page--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 35px;
+  }
+  footer .page--container .footer-links {
+    flex: 2;
+  }
+  footer .page--container .footer-links ul {
+    margin-bottom: -5px;
+  }
+  footer .page--container .canada-wordmark {
+    flex: 1;
+    text-align: right;
+    margin-bottom: 0;
+    max-height: 100%;
+  }
+  footer .page--container .canada-wordmark img {
+    height: 35px;
+  }
+}
+header {
+  padding: 2rem 0 0 0;
+}
+header button {
+  padding: 0;
+}
+@media screen and (min-width: 35.5em) {
+  header {
+    padding-bottom: 30px;
+    text-align: right;
+  }
+}
+header .fip-container {
+  flex-direction: column;
+  display: flex;
+}
+@media screen and (min-width: 35.5em) {
+  header .fip-container {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+header .language-link {
+  text-align: left;
+  margin-bottom: 15px;
+}
+header .language-link h2 {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  border: 0 !important;
+  white-space: nowrap !important;
+}
+header .language-link form,
+header .language-link button {
+  margin: 0;
+  max-width: unset;
+  width: auto;
+}
+header .language-link button {
+  background: none;
+  color: #284162;
+  text-decoration: underline;
+  border: 0;
+  box-shadow: none;
+  font-size: 0.9em;
+}
+header .language-link button:focus {
+  outline: 3px solid #ffbf47;
+  outline-offset: 3px;
+}
+@media screen and (min-width: 35.5em) {
+  header .language-link {
+    margin-bottom: 0;
+  }
+}
+header .canada-flag {
+  width: 272px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 35.5em) {
+  header .canada-flag {
+    width: 360px;
+    margin-bottom: 0;
+  }
+}
+
+.skip-link {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.14286;
+  display: block;
+  padding: 10px 15px;
+}
+.skip-link:active,
+.skip-link:focus {
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  margin: inherit !important;
+  overflow: visible !important;
+  clip: auto !important;
+  -webkit-clip-path: none !important;
+  clip-path: none !important;
+  white-space: inherit !important;
+}
+.skip-link:link,
+.skip-link:visited,
+.skip-link:hover,
+.skip-link:active,
+.skip-link:focus {
+  color: #0b0c0c;
+}
+.skip-link:focus {
+  outline: 3px solid #ffbf47;
+  background-color: #ffbf47;
+}
+
+abbr {
+  text-decoration: none;
+  border-bottom: 2.5px dotted #999;
+  cursor: help;
+}
